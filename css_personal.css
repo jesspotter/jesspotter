@@ -1,0 +1,243 @@
+body {
+	font-family: 'EB Garamond', serif;
+	margin:0px;
+}
+
+/*-----------------START OF MY HERO SECTION */
+
+@media screen and (max-width: 1200px) {
+	.third-spike-flower {
+		visibility: hidden;
+	}
+}
+
+@media screen and (max-width: 810px) {
+	.another-spike-flower {
+		visibility:hidden;
+	}
+	
+	.another-spiral-flower {
+		visibility:hidden;
+	}
+	
+	.spike-flower {
+		visibility:hidden;
+	}
+}
+
+@media only screen and (max-width: 376px) {
+	.hero-text {
+		margin-left:60px;
+	}
+	
+	.spike-flower {
+		position:absolute;
+		margin-right: 200px;
+	}
+}
+
+@media only screen and (min-width: 377px) {
+	.hero-text {
+		margin-left:40%;
+	}
+	
+	.iphone-flower{
+		visibility:hidden;
+	}
+}
+
+@media screen and (max-width: 1050px) {
+	.spike-flower {
+		margin-left:42%;
+		margin-top:5%;
+	}
+	
+	
+	.flower {
+		visibility:hidden;
+	}
+	
+	.another-flower {
+		visibility:hidden;
+	}
+	
+	.third-flower {
+		visibility:hidden;
+	}
+	
+	.spiral-flower {
+		visibility:hidden;
+	}
+	
+	.third-spiral-flower {
+		visibility:hidden;
+	}
+}
+
+.hero {
+	height:795px;
+	width:100%;
+}
+
+.iphone-flower {
+	position:absolute;
+	margin-left:60px;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpikeFlowerBud.png);
+	float:left;
+}
+
+.spike-flower {
+	
+	height:216px;
+	width:216px;
+	background-image:url(images/SpikeFlowerBud.png);
+	float:left;
+}
+
+.spike-flower:hover {
+	background-image:url(images/SpikeFlowerStepbyStep.gif);
+}
+
+.flower {
+	position:relative;
+	height:122px;
+	width:144px;
+	background-image:url(images/FlowerBud.png);
+	margin-left:10%;
+	margin-top:3%;
+	float:left;
+}
+
+.flower:hover {
+	background-image:url(images/FlowerStepbyStep.gif);
+}
+
+.another-spike-flower {
+	position:relative;
+	margin-left:5%;
+	margin-top:5%;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpikeFlowerBud.png);
+	float:left;
+}
+
+.another-spike-flower:hover {
+	background-image:url(images/SpikeFlowerStepbyStep.gif);
+}
+
+.spiral-flower {
+	position:relative;
+	margin-left:10%;
+	margin-top:2%;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpiralFlowerBud.png);
+	float:left;
+}
+
+.spiral-flower:hover {
+	background-image:url(images/SpiralFlowerStepbyStep.gif);
+}
+
+.another-spiral-flower {
+	position:absolute;
+	margin-left:10%;
+	margin-top:12%;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpiralFlowerBud.png);
+	float:left;
+}
+
+.another-spiral-flower:hover {
+	background-image:url(images/SpiralFlowerStepbyStep.gif);
+}
+
+.another-flower {
+	position:relative;
+	height:122px;
+	width:144px;
+	background-image:url(images/FlowerBud.png);
+	margin-left:4%;
+	margin-top:7%;
+	float:left;
+}
+
+.another-flower:hover {
+	background-image:url(images/FlowerStepbyStep.gif);
+}
+
+.third-spike-flower {
+	position:relative;
+	margin-left:1%;
+	margin-top:6%;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpikeFlowerBud.png);
+	float:left;
+}
+
+.third-spike-flower:hover {
+	background-image:url(images/SpikeFlowerStepbyStep.gif);
+}
+
+.third-flower {
+	position:absolute;
+	height:122px;
+	width:144px;
+	background-image:url(images/FlowerBud.png);
+	margin-left:17%;
+	margin-top:32%;
+	flaot:left;
+}
+
+.third-flower:hover {
+	background-image:url(images/FlowerStepbyStep.gif);
+}
+
+.third-spiral-flower {
+	position:relative;
+	margin-left:40%;
+	margin-top:-12%;
+	height:216px;
+	width:216px;
+	background-image:url(images/SpiralFlowerBud.png);
+	float:left;
+}
+
+.third-spiral-flower:hover {
+	background-image:url(images/SpiralFlowerStepbyStep.gif);
+}
+
+.hero-text {
+	height:130px;
+	width:270px;
+	position:absolute;
+	margin-top:250px;
+}
+
+#click2 {
+	margin-left:10px;
+	position:relative;
+}
+
+#hover4 {
+	margin-left:15px;
+	margin-top:10px;
+	position:relative;
+	visibility:hidden;
+}
+
+h1 {
+	font-family:'EB Garamond';
+	color:#1400FF;
+	font-weight:medium;
+	font-size:24;
+	text-transform:uppercase;
+	line-height:34px;
+	letter-spacing:10px;
+	align:center;
+}
